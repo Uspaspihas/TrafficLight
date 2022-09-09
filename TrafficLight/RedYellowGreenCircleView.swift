@@ -29,7 +29,7 @@ struct RedYellowGreenCircleView: View {
     func getCircle() -> some View {
         Circle()
             .frame(width: 120, height: 120)
-            .overlay(Circle().stroke(Color.white, lineWidth: 4))
+            .overlay(Circle().stroke(Color.white, lineWidth: 5))
     }
 }
 
