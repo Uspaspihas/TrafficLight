@@ -43,13 +43,13 @@ struct ContentView: View {
         if opacityRed < 1.0 && opacityYellow < 1.0 && opacityGreen < 1.0 {
             opacityRed = 1.0
         } else if opacityRed == 1.0 {
-            opacityRed = 0.001
+            opacityRed = 0.3
             opacityYellow = 1.0
         } else if opacityYellow == 1.0 {
-            opacityYellow = 0.001
+            opacityYellow = 0.3
             opacityGreen = 1.0
         } else if opacityGreen == 1.0 {
-            opacityGreen = 0.001
+            opacityGreen = 0.3
             opacityRed = 1.0
         }
     }
